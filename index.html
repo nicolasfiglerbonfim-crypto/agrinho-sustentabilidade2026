@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho - Desmatamento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Desmatamento e Sustentabilidade</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#causas">Causas</a>
+            <a href="#solucoes">Soluções</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>O que é desmatamento?</h2>
+            <p>
+                O desmatamento é a remoção da cobertura vegetal, afetando clima, animais e recursos naturais.
+            </p>
+            <button onclick="mostrarAlerta()">Saiba Mais</button>
+        </section>
+
+        <section id="causas">
+            <h2>Principais causas</h2>
+            <ul>
+                <li>Expansão agrícola</li>
+                <li>Pecuária</li>
+                <li>Extração de madeira</li>
+                <li>Queimadas</li>
+            </ul>
+        </section>
+
+        <section id="solucoes">
+            <h2>Soluções</h2>
+            <ol>
+                <li>Reflorestamento</li>
+                <li>Fiscalização ambiental</li>
+                <li>Educação ambiental</li>
+                <li>Uso sustentável dos recursos naturais</li>
+            </ol>
+            <input type="number" id="arvores" placeholder="Quantas árvores você plantou?">
+            <button onclick="contarArvores()">Registrar</button>
+            <p id="resultado"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto Agrinho 2026 - Conscientização sobre o Desmatamento</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
